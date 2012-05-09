@@ -1,0 +1,59 @@
+/**
+ * @package jQuery Progress Bubbles
+ * @author Jesse O'Brien <jesse at jesse-obrien.ca>
+ * @date	April 2012
+ * @license DWTFYWTPL
+ *
+ * This program is free software. It comes without any warranty, to
+ * the extent permitted by applicable law. You can redistribute it
+ * and/or modify it under the terms of the Do What The Fuck You Want
+ * To Public License, Version 2, as published by Sam Hocevar. See
+ * http://sam.zoy.org/wtfpl/COPYING for more details.
+ */
+
+.progress-bubbles {
+	height: 60px;
+	padding-top: 30px;
+}
+
+.progress-bubbles .bubble {
+	padding: 15px;
+	float: left;
+	text-align: center;
+	background: #ddd;
+	color: #888;
+	font-weight: bold;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	border: 5px solid #ddd;
+}
+
+.progress-bubbles .bubble  .bubble-title {
+	margin-top: -45px;
+	margin-bottom: 25px;
+	margin-left: -20px;;
+	text-align: left;
+	width: 140px;
+	color: #888;
+}
+
+.progress-bubbles .bubble.active {
+	background: #28b7b4;
+	color: #fff;
+}
+
+.progress-bubbles .bubble.complete{
+	background: #fff;
+}
+
+.progress-bubbles .connector {
+	margin-left: -1px;
+	margin-right: -1px;
+	margin-top: 25px;
+	width: 100px;
+	height: 10px;
+	float: left;
+	display: inline-block;
+	background: #ddd;
+}
