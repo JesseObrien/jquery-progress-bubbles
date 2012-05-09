@@ -107,7 +107,7 @@
     progress : function( new_progress ) {
     	$this = $(this);
   		var settings = $(this).data('settings');
-    	new_progress = typeof new_progress !=== 'undefined' ? new_progress : settings.progress+1;
+    	new_progress = typeof new_progress !== 'undefined' ? new_progress : settings.progress+1;
   		settings.progress = new_progress;
   		$(this).data('settings', settings);
 
