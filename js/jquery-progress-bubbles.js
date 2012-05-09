@@ -103,7 +103,7 @@
     	});
 
     },
-    // This function can be called
+    // This function can be called to progress the active step
     progress : function( new_progress ) {
     	$this = $(this);
   		var settings = $(this).data('settings');
@@ -112,6 +112,23 @@
   		$(this).data('settings', settings);
 
     	if( new_progress !== NaN || new_progress <= settings.bubbles.length)
+    	{
+    		draw(this, settings);
+    	}
+    	else
+    	{
+    		console.err("Error, progress was not a number");
+    	}
+    },
+    // This function can be called to regress the active step
+    regress : function( new_progress ) {
+    	$this = $(this);
+  		var settings = $(this).data('settings');
+    	new_progress = typeof new_progress !== 'undefined' ? new_progress : settings.progress-1;
+  		settings.progress = new_progress;
+  		$(this).data('settings', settings);
+
+    	if( new_progress !== NaN || new_progress <= settings.bubbles.length && new_progress >= 0 )
     	{
     		draw(this, settings);
     	}
