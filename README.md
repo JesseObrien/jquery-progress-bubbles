@@ -3,7 +3,7 @@ jQuery Progress Bubbles
 
 Nice Progress Bubbles for jQuery.
 
-Demo here:
+Demo here: http://jesseobrien.github.com
 
 License:
 
