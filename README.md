@@ -3,16 +3,18 @@ jQuery Progress Bubbles
 
 Nice Progress Bubbles for jQuery.
 
-Inspired by Inspired by [ondrejlechan's Progress Trackers](http://www.ondrejlechan.com/) found at <a href="http://creativemarket.com/free-goods">Creativemarket</a>.
+Inspired by [ondrejlechan's Progress Trackers](http://www.ondrejlechan.com/) found at <a href="http://creativemarket.com/free-goods">Creativemarket</a>.
 
-Demo here: http://jesseobrien.github.com
+###Demo 
 
-TODO:
+http://jesseobrien.github.com
+
+###TODO
 
   * Bubble numbers are a bit off center, need a better way to center them
   * Make and include a few different styles/themes
 
-License:
+###License
 
 ```
 This program is free software. It comes without any warranty, to
